@@ -1,0 +1,4 @@
+[![Maintained by dat-app.academy](https://img.shields.io/static/v1?style=flat-square&logo=terraform&label=maintained%20by&message=dat-app.io&color=blueviolet)](https://github.com/dat-app)
+## AWS Auto Scaling Group (ASG) Component Module
+
+This repo contains a set of modules in the [modules folder](https://github.com/hashicorp/terraform-aws-consul/tree/master/modules) for deploying a [Consul](https://www.consul.io/) cluster on [AWS](https://aws.amazon.com/) using [Terraform](https://www.terraform.io/). Consul is a distributed, highly-available tool that you can use for service discovery and key/value storage. A Consul cluster typically includes a small number of server nodes, which are responsible for being part of the [consensus quorum](https://www.consul.io/docs/internals/consensus.html), and a larger number of client nodes, which you typically run alongside your apps:
